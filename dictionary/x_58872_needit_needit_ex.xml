@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="03f9f449834c9b10e216fe55eeaad359" extends="task" label="NeedIt Ex" max_length="40" name="x_58872_needit_needit_ex" type="collection">
+        <element label="Requested for email" max_length="40" name="requested_for_email" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Other" max_length="100" name="other" type="string"/>
         <element choice="3" default="legal" label="Request type" mandatory="true" max_length="255" name="request_type" type="choice">
